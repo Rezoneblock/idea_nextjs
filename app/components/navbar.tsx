@@ -28,8 +28,8 @@ const Navbar = async () => {
 								<span>Logout</span>
 							</button>
 
-							<Link href={`/user/${session?.id}`}>
-								<span>{session?.user?.name}</span>
+							<Link href={`/user/${session.user.email}`}>
+								<span>{session.user.name}</span>
 							</Link>
 						</>
 					) : (
