@@ -1,7 +1,11 @@
 export default function Home() {
 	return (
 		<>
-			<h1 className="text-2xl">HOME</h1>
+			<main className="hero bg-secondary">
+				<div className="container mx-auto">
+					<h1 className="heading my-[1000px]">домашняя</h1>
+				</div>
+			</main>
 		</>
 	);
 }
