@@ -6,15 +6,15 @@ import React from "react";
 const Navbar = async () => {
 	const session = await auth();
 	return (
-		<header className="px-5 py-3 bg-primary shadow-sm font-work-sans">
+		<header className="px-5 py-3 bg-bgsecondary shadow-sm font-work-sans">
 			<div className="container mx-auto">
 				<nav className="flex justify-between items-center">
 					<Link href="/">
 						<Image
 							src="/logo.png"
 							alt="logo"
-							width={144}
-							height={60}
+							width={48}
+							height={48}
 						/>
 					</Link>
 
