@@ -46,10 +46,10 @@
 }
 
 :root {
-	--primary: #200a8b;
-	--secondary: #d251f6;
 	--bgprimary: #141414;
 	--bgsecondary: #1a1a1a;
+	--textsecondary: #999999;
+	--bordercolor: #262626;
 	--radius: 0.625rem;
 	--background: oklch(1 0 0);
 	--foreground: oklch(0.129 0.042 264.695);
@@ -122,6 +122,7 @@
 	}
 	body {
 		@apply bg-background text-foreground;
+		color: #ffffff;
 	}
 }
 

@@ -7,7 +7,7 @@ const jetBrainsMono = localFont({
 });
 
 export const metadata: Metadata = {
-	title: "!dea",
+	title: "Gordeev",
 	description: "By Gordeev Timur",
 };
 
